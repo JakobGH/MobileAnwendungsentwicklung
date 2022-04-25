@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Example App</string>
+    <string name="submitBtn">Submit</string>
+    <string name="firstnameText">Vorname</string>
+    <string name="lastnameText">Nachname</string>
+    <string name="emptyTF">Bitte beide Felder ausfüllen</string>
+    <string name="phonenumber">Telefonnummer</string>
+    <string name="openPhone">Öffne Nummer</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="noPhoneNumber">Keine Nummer angegeben.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inputText">Füge einen Text ein</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="inputContactDetails">Bitte geben Sie ihren Namen mit Anrede an.</string>
+    <string name="changeActivity">Öffne zweite Activity</string>
+    <string name="permission">Berechtigung</string>
+
+
+</resources>

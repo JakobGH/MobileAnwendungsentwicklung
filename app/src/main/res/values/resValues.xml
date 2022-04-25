@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="salutation">
+        <item>Herr</item>
+        <item>Frau</item>
+    </string-array>
+</resources>

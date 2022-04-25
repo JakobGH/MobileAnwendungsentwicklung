@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="100"
+        android:padding="50dp"
+        android:background="@color/teal_200"
+>
+
+    <TextView
+            android:id="@+id/contactDetailsTV"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60"
+            android:text="@string/inputContactDetails"
+            android:gravity="center"
+            android:textSize="20sp"
+    />
+
+    <EditText
+            android:id="@+id/inputFirstnameFragmentET"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:hint="@string/firstnameText"
+    />
+
+    <EditText
+            android:id="@+id/inputLastnameFragmentET"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:hint="@string/lastnameText"
+    />
+
+    <Spinner
+            android:id="@+id/spinnerFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+    />
+
+    <Button
+            android:id="@+id/submitFragmentBtn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:text="@string/submitBtn"
+    />
+</LinearLayout>

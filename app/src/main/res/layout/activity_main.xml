@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_weight="100"
+        android:gravity="center"
+>
+    <TextView
+            android:id="@+id/welcomeTf"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60"
+            android:gravity="center"
+            android:textSize="20sp"
+    />
+
+    <EditText
+            android:id="@+id/firstnameEf"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="10"
+            android:textSize="20sp"
+            android:hint="@string/firstnameText"
+    />
+
+    <EditText
+            android:id="@+id/lastnameEf"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:textSize="20sp"
+            android:hint="@string/lastnameText"
+    />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:textSize="20sp"
+            android:hint="@string/phonenumber"
+            android:id="@+id/phonenumber"
+    />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:orientation="horizontal"
+    >
+
+        <Button
+                android:id="@+id/submitBtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:textSize="11sp"
+                android:text="@string/submitBtn"
+        />
+
+        <Button
+                android:id="@+id/openPhoneBtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:text="@string/openPhone"
+        />
+
+        <Button android:layout_width="0dp" android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:id="@+id/permission"
+                android:textSize="11sp"
+                android:text="@string/permission"
+        />
+
+        <Button
+                android:id="@+id/changeActivity"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:textSize="11sp"
+                android:text="@string/changeActivity"
+        />
+
+    </LinearLayout>
+</LinearLayout>

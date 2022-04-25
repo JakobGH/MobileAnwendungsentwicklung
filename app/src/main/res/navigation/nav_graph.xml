@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/contactFragment">
+    <fragment android:id="@+id/contactFragment" android:name="com.example.myapplication.ContactFragment"
+              android:label="fragment_contact" tools:layout="@layout/fragment_contact">
+        <action android:id="@+id/fromInputToOutput"
+                app:destination="@id/contactPrintFragment"/>
+    </fragment>
+    <fragment android:id="@+id/contactPrintFragment" android:name="com.example.myapplication.ContactPrintFragment"
+              android:label="fragment_contact_print" tools:layout="@layout/fragment_contact_print">
+        <argument android:name="firstname" app:argType="string"/>
+        <argument android:name="lastname" app:argType="string"/>
+        <argument android:name="salutation" app:argType="string"/>
+    </fragment>
+</navigation>
