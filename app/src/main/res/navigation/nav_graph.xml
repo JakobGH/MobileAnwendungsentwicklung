@@ -14,4 +14,6 @@
         <argument android:name="lastname" app:argType="string"/>
         <argument android:name="salutation" app:argType="string"/>
     </fragment>
+    <fragment android:id="@+id/layoutFragment" android:name="com.example.myapplication.LayoutFragment"
+              android:label="fragment_layout" tools:layout="@layout/fragment_layout"/>
 </navigation>

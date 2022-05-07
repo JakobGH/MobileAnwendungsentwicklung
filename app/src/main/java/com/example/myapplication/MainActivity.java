@@ -1,6 +1,7 @@
 package com.example.myapplication;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
@@ -66,6 +67,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         startup();
+
+        Intent i = getIntent();
+
+        if(i.hasExtra("extra"))
+            Toast.makeText( this, i.getStringExtra("extra"), Toast.LENGTH_SHORT).show();
     }
 
     private void startup() {
